@@ -36,10 +36,13 @@
       <div class="one-half column" style="margin-top: 25%">
         <h4>Circuits Project: Full Adder</h4>
         <img src="images/fulladder.png">
-        <p>We made a full adder with 48 transistors from CMOS arrays (the ALD1106 and ALD1107). <a href="https://drive.google.com/file/d/0BxPpLHO-t5J7SldtWUdLcTl5Ylk/view?usp=sharing">Here's a video of it working.</a>. (It wouldn't upload to YouTube, otherwise we'd embed it.)</p>
+        <p>We made a full adder with 48 transistors from CMOS arrays (the ALD1106 and ALD1107). </p> 
+        <img src="images/circuit.JPG" style="width:100%">
+        <p><a href="https://drive.google.com/file/d/0BxPpLHO-t5J7SldtWUdLcTl5Ylk/view?usp=sharing">Here's a video of it working.</a>. (It wouldn't upload to YouTube, otherwise we'd embed it.)</p>
         <!-- video -->
         <p>To investigate propagation delay, we used an Analog Discovery to generate a square wave as one of the adder inputs. The carry-in bit was held low for this experiment, so the adder was essentially switching between its 0 and 1 states. The frequency was about 50kHz.</p>
         <img src="images/fig1.png" style="width:100%">
+        <p>Since 0 to 5 volts is a large amplitude transition, we tried fitting a straight line to it (as in lab 9, where we measured the slew rate of a differential amplifier). It's not particularly straight, but our measured rate was about 4.17 million V/s.</p>
         <p>It is interesting to note that the time constant when it was being pulled down was lower than when it was being pulled up. This happens in all CMOS gates because of the respective mobilities of the majority carriers in each device: electron mobility is about 2x greater than hole mobility.</p>
         <p>In doing this project we had to create two XOR gates, which neither of us had seen in transistor form before. We made a brief video describing the pull up and pull down network for an XOR in terms of boolean logic, which can be found <a href="#">here</a>.</p>
       </div>
